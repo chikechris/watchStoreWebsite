@@ -20,6 +20,9 @@
       crossorigin="anonymous"
     ></script>
 
+<!-- Slick Slider-->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     <!--Custm Stylesheet-->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -85,14 +88,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Shop</a>
               </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
             </ul>
           </div>
           <div class="navbar-nav">
             <li class="nav-item border rounded-circle mx-2 search-icon">
-                <i class="fas fa-search p-2"></i>
+              <i class="fas fa-search p-2"></i>
             </li>
             <li class="nav-item border rounded-circle mx-2 cart-icon">
               <i class="fas fa-shopping-cart p-2"></i>
@@ -103,7 +106,25 @@
     </header>
 
     <!--header-->
-    <main></main>
+    <main>
+
+      <div class="container-fliud p-0">
+        <div class="site-slider">
+          <div class="slider-one">
+            <div>
+              <img src="./assets/imgcarsol1.jpg" class="img-fluid" width= "100%" height= "auto"  alt="Banner 1">
+            </div>
+            <div>
+              <img src="./assets/imgcarsol2.jpg" class="img-fluid"width= "100%" height="10%"  alt="Banner 2">
+            </div>
+            <div>
+              <img src="./assets/imgcarsol3.jpg" class="img-fluid" width="100%" alt="Banner 3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
     <footer></footer>
 
     <script
@@ -121,5 +142,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
